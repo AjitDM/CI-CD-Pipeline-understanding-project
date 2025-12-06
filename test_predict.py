@@ -18,7 +18,7 @@ def test_predict(client):
     "Married": "Unmarried",
     "ApplicantIncome": 5000,
     "Credit_History": "Cleared Debts",
-    "LoanAmount": 500
+    "LoanAmount": 500000
     }
     resp = client.post('/predict', json = test_data)
     assert resp.status_code == 200
