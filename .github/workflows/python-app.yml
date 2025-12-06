@@ -1,4 +1,4 @@
-name: testing the application
+name: testing the application practice
 
 on:
   push:
